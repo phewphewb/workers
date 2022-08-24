@@ -1,0 +1,16 @@
+{
+  "name": "mssanger-example",
+  "version": "0.0.1",
+  "description": "Example of a multiwindow/tab web app",
+  "author": "Valentyn Patsera <valentyn.patsera@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "webpack": "5.74",
+    "webpack-cli": "^4.10.0",
+    "worker-loader": "^3.0.8"
+  },
+  "scripts": {
+    "build": "webpack --config ./webpack.config.js",
+    "example": "node ./server.js"
+  }
+}

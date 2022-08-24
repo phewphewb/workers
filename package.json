@@ -1,0 +1,22 @@
+{
+  "name": "browser-threads",
+  "version": "0.0.1",
+  "description": "Library for in browser multithreading.",
+  "author": "Valentyn Patsera <valentyn.patsera@gmail.com>",
+  "license": "MIT",
+  "keywords": [
+    "threads",
+    "browser",
+    "lightweight",
+    "application",
+    "framework",
+    "scalable",
+    "web",
+    "webworkers",
+    "workers",
+    "shared",
+    "app"
+  ],
+  "main": "index.js",
+  "readmeFilename": "README.md"
+}
