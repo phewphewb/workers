@@ -1,7 +1,7 @@
 const path = require("path");
 
 module.exports = {
-  entry: "./examples/messanger/index.js",
+  entry: "./index.js",
   output: {
     filename: "messanger.js",
     path: path.resolve(__dirname, "build"),
