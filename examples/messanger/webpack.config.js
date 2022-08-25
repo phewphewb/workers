@@ -1,5 +1,5 @@
 const path = require("path");
-// TO DO move to example folder
+
 module.exports = {
   entry: "./examples/messanger/index.js",
   output: {
