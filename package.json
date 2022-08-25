@@ -17,6 +17,9 @@
     "shared",
     "app"
   ],
+  "files": [
+    "lib/"
+  ],
   "main": "index.js",
   "readmeFilename": "README.md"
 }
