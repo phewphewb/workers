@@ -4,7 +4,7 @@
 
 A tiny library for multithreading in browser. The library aims to make the work with worker in browsers easy. 
 
-## Good for:
+## Good for
 
 - keep application state in a shared worker and have one source of thruth 
 - keep api calls, espcially via websocket in shared worker
@@ -25,7 +25,7 @@ A tiny library for multithreading in browser. The library aims to make the work 
     const event = { name: "message", data: { message: "Hello World!" }}
     const result = await thread.forward(event);
 
-### Future ventures
+## Future ventures
 Eventually this should look something like `goroutines`. 
 Where you call a method on a module/object/instance as it was in the main thread namesapse.
 
