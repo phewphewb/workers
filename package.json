@@ -20,6 +20,7 @@
   "files": [
     "lib/"
   ],
+  "repository": "https://github.com/valentynpatsera/workers",
   "main": "index.js",
   "readmeFilename": "README.md"
 }
