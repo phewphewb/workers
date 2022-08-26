@@ -28,9 +28,10 @@ A tiny library for multithreading in browser. The library aims to make the work 
 ### Subscribe to all events
 
     thread.on('name', listener);
-### Subscribe to state events
+### Subscribe to state/api events
+It takes the module and method names from the name of the event (aka path), executes the method, awaits and returns the result (trigers the listener)
 
-    thread.sub('name', listener);
+    thread.sub('/name', listener);
 
 ## Future ventures
 Eventually this should look something like `goroutines`. 
