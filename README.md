@@ -23,7 +23,14 @@ A tiny library for multithreading in browser. The library aims to make the work 
 ### Forward events
 
     const event = { name: "message", data: { message: "Hello World!" }}
-    const result = await thread.forward(event);
+    thread.forward(event);
+
+### Subscribe to all events
+
+    thread.on('name', listener);
+### Subscribe to state events
+
+    thread.sub('name', listener);
 
 ## Future ventures
 Eventually this should look something like `goroutines`. 
