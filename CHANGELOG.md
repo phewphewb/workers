@@ -13,6 +13,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## UNRELEASED
 
+## RELEASE [0.0.1] - 25/08/2022
+
 ### :construction_worker: New Features
 
 * basic implementation
